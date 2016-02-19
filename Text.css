@@ -1,0 +1,260 @@
+h3 {
+    margin-top: 20px;
+    font-size: 70px;
+    color: #C3D1DB;
+}
+
+h1{
+    margin: 20px 0px 20px 0px
+}
+
+.menu {
+    background: #262626 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png');
+    width: 300px;
+    height: 100%;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: -300px;
+}
+
+#mainTitle {
+    color: #1C1D34;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.subtitle {
+    color: #9A9CA9;
+    text-align: center;
+    z-index: 1;
+}
+
+
+#background {
+    background-image: url(http://blogs-images.forbes.com/insertcoin/files/2015/03/destiny1.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+li {
+
+}
+
+#close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+/*    left: -20px;*/
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+#aboutPage {
+    width: 80%;
+    height: 100%;
+    background-color: #595D6B;
+    margin: 0 auto; 
+    position: absolute;
+    left: 10%;
+    border-radius: 5px;
+}
+
+#aboutDiv {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: -100%;
+}
+
+p {
+    color: white;
+    z-index: 1;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#menuButton {
+    position: relative;
+    top: 8px;
+    left: 10px;
+    width: 30px;
+    z-index: 2;
+    -webkit-filter: none;
+    cursor: pointer;
+    opacity: 50%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#aboutText {
+    font-size: 20px;
+}
+
+#joinDiv {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: -100%;
+}
+
+#joinPage {
+    width: 80%;
+    height: 100%;
+    background-color: #595D6B;
+    margin: 0 auto; 
+    position: absolute;
+    left: 10%;
+    border-radius: 5px;
+}
+
+#joinText {
+    font-size: 20px;
+}
+
+.link{
+    cursor: pointer;
+}
+.menuList {
+    cursor: pointer;
+    border-top: 1px solid #636366;
+    width: 300px;
+    color: #C3D1DB;
+    font-size: 30px;
+}
+
+#homeButton {
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%
+}
+
+.rulesItem {
+    width: auto;
+    color: #C3D1DB;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#joinLink {
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+}
+
+#eventsDiv {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: -100%;
+}
+
+#eventsPage {
+    width: 80%;
+    height: 100%;
+    background-color: #595D6B;
+    margin: 0 auto; 
+    position: absolute;
+    left: 10%;
+    border-radius: 5px;
+}
+
+#eventsText {
+    font-size: 20;
+}
+
+#membersDiv {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: -100%;
+}
+
+#membersPage {
+    width: 80%;
+    height: 100%;
+    background-color: #595D6B;
+    margin: 0 auto; 
+    position: absolute;
+    left: 10%;
+    border-radius: 5px;
+}
+
+#membersText {
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#backgroundBlur {
+    background-image: url(http://i.imgur.com/EJU0HXu.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+#eventTable {
+/*    border: 2px solid #5A7AA6;*/
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid #5A7AA6;
+    height: 50px;
+}
+
+th{
+    font-size: 30px;
+    border: 3px solid #5A7AA6;
+    color: #C3D1DB; 
+}
+
+.smallRow {
+    width: 35%;
+}
+
+.bigRow {
+    width: 65%;
+    width: 65%;
+}
+tr:hover {background-color: #74788b}
+
+
